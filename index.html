@@ -1,0 +1,64 @@
+<html>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+      <script src="app.js"></script>
+      <title></title>
+<body>
+  <div class="container">
+    <div class="title">pomodoro clock</div>
+    <div class="head">
+
+      <div class="option">
+        <div >session</div>
+      <div class="select">
+        <button class="down" data-type="session" data-name="down">
+          <!-- <i class="material-icons">keyboard_arrow_down</i> -->
+        </button>
+        <div class="value" data-type="session" data-name="value">25 </div>
+        <button class="up" data-type="session" data-name="up">
+            <!-- <i class="material-icons">keyboard_arrow_up</i> -->
+        </button>
+      </div>
+    </div>
+      <div class="option">
+        <div>break</div>
+      <div class="select">
+        <button class="down" data-type="break" data-name="down">
+          <!-- <i class="material-icons">keyboard_arrow_down</i> -->
+        </button>
+        <div class="value" data-type="break" data-name="value">25 </div>
+        <button class="up" data-type="break" data-name="up">
+          <!-- <i class="material-icons">keyboard_arrow_up</i> -->
+        </button>
+      </div>
+    </div>
+    </div>
+   <div class="main">
+     <div class="control">
+       <button class="option" data-type="control" title="start" data-name="start">
+          <!-- <i class="material-icons">play_arrow</i> -->
+       </button>
+     <button class="option"  data-type="control" title="restart" data-name="restart">
+          <i class="material-icons">replay</i>
+     </button>
+   </div>
+     <div class="clock">
+        <div id=current>session</div>
+        <div class="value">25:00</div>
+     </div>
+     <div class="control" >
+
+       <button class="option"  data-type="control" title="pause" data-name="pause">
+          <!-- <i class="material-icons">pause</i> -->
+       </button>
+     <button class="option"  data-type="control" title="reset" data-name="reset">
+        <!-- <i class="material-icons">stop</i> -->
+     </button>
+     </div>
+   </div>
+  </div>
+</body>
+
+</html>
