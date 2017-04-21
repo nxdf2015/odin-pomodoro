@@ -15,10 +15,10 @@ window.onload = function(){ let interval = null;
        option.innerHTML = "\u23f8";
        break;
 
-   case "play":
+   case "start":
             option.innerHTML = "\u23F5";
             break;
-   case "stop":
+   case "reset":
           option.innerHTML = "\u25FC";
           break;
      default:
@@ -49,7 +49,7 @@ function addButtons(elements){
   })
 }
 
-//add event listener for the buttons increase or decrease time  
+//add event listener for the buttons increase or decrease time
 function handlerClick(event){
  let name = this.dataset.name;
  // console.log(this.dataset.type);
@@ -119,7 +119,7 @@ function start(value){
             value= initValue("session");
         start(value);  }
       render(CLOCK,d);
-  } ,  50)
+  } ,  1000)
 
 }
 
