@@ -49,7 +49,7 @@ function addButtons(elements){
   })
 }
 
-//add event listener for the buttons increase or decrease time session or break
+//add event listener for the buttons increase or decrease time  
 function handlerClick(event){
  let name = this.dataset.name;
  // console.log(this.dataset.type);
@@ -117,7 +117,7 @@ function start(value){
             value = initValue("break");
         else
             value= initValue("session");
-        start(value);  }  
+        start(value);  }
       render(CLOCK,d);
   } ,  50)
 
